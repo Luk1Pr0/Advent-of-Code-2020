@@ -37,30 +37,6 @@ function findOccurences() {
 
 // PART 2
 function findValidIndex() {
-    let validIndexArray = [];
-
-    finalArray.forEach(array => {
-        // Assign values to variables again, this time, taking the values from the finalArray
-        let minNum = array[0];
-        let maxNum = array[1];
-        let letter = array[2];
-        let text = array[3];
-        // const numOfOccurence = text.split(letter).length - 1; // Count the number of occurences the letter occurs in the text
-        // // If the number of occurence of the letter in the text is bigger or equal to minNum or smaller or equal to the maxNum then return
-        // if (numOfOccurence >= minNum && numOfOccurence <= maxNum) {
-        //     console.log(validPasswords)
-        // }
-
-        for (let i = 0; i < text.length; i++) {
-            if (text[minNum - 1] === letter && !text[maxNum] === letter) {
-                validIndexArray.push([i, text[minNum - 1], letter, text[maxNum], text]);
-            }
-        }
-    });
-    console.log(validIndexArray.length);
-}
-
-function findValidIndex() {
     let validIndex = 0;
     let minNum = [];
     let maxNum = [];
