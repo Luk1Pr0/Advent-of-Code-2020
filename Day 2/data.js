@@ -1,11 +1,11 @@
-const passwords = `
+const passwords2 = `
         7-11 m: mmmmmmsmmmmm
         5-7 z: qhcgzzz
         1-4 n: nnnnn
         2-5 h: lcwghhkpkxvzkvrmxrv
         `;
 
-const passwords2 = `
+const passwords = `
         1-4 n: nnnnn
         5-7 z: qhcgzzz
         7-11 m: mmmmmmsmmmmm
